@@ -17,8 +17,8 @@ openai.api_key = os.getenv('OPENAI_KEY')
 # Set up Telegram bot token from environment variables
 TOKEN = os.getenv('TG_BOT_TOKEN')
 
-print(openai.api_key)
-print(TOKEN)
+# print(openai.api_key)
+# print(TOKEN)
 
 def handle_message(message):
     response = g4f.ChatCompletion.create(
